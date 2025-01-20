@@ -1,0 +1,30 @@
+.cupang-prod-displayer[prefix="_cupangProdDisplayer-ge-94"] {
+  width: 100%;
+  position: relative;
+}
+.layout[prefix="_cupangProdDisplayer-ge-94"] {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.all-item-couting-title[prefix="_cupangProdDisplayer-ge-94"] {
+  width: 100%;
+  padding: 24px;
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: center;
+}
+.all-item-couting-title[prefix="_cupangProdDisplayer-ge-94"] > p {
+  font-size: 24px;
+}
+@media screen and (max-width: 960px) {
+  .layout[prefix="_cupangProdDisplayer-ge-94"] {
+    margin: auto 8px;
+  }
+
+  .all-item-couting-title[prefix="_cupangProdDisplayer-ge-94"] > p {
+    font-size: 20px;
+  }
+}

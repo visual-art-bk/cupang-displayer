@@ -1,0 +1,9 @@
+.input-for-add-cupang-item[prefix="_inputForAddCupangItem-nh-28"] {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.input-for-add-cupang-item[prefix="_inputForAddCupangItem-nh-28"] label {
+    font-size: 20px;
+}

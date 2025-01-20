@@ -1,0 +1,13 @@
+.layout[prefix="_sliderEditor-re-43"] {
+  margin: 24px 128px;
+
+  padding: 64px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .layout[prefix="_sliderEditor-re-43"] {
+    margin: auto 8px;
+
+    padding: 48px 0;
+  }
+}

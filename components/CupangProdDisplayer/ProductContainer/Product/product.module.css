@@ -1,0 +1,10 @@
+.layout[prefix='_product-md-43'] {
+  display: flex;
+  column-gap: 16px;
+}
+
+.text-layout[prefix='_product-md-43'] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

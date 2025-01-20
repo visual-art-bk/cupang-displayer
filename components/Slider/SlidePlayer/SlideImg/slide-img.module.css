@@ -1,0 +1,52 @@
+.slider-img[PREFIX="_slideImg-kr-45"] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 850ms ease-out;
+}
+.img-item[PREFIX="_slideImg-kr-45"] {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.layout[PREFIX="_slideImg-kr-45"] {
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+.product-link[prefix="_slideImg-kr-45"] {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-link[prefix="_slideImg-kr-45"] a {
+  font-size: 64px;
+  color: white;
+  cursor: pointer;
+}
+.product-link[prefix="_slideImg-kr-45"] a:hover {
+  color: rgb(128, 231, 240);
+  font-size: 70px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  .product-link[prefix="_slideImg-kr-45"] {
+    margin: auto 8px;
+  }
+  .product-link[prefix="_slideImg-kr-45"] a {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .product-link[prefix="_slideImg-kr-45"] a:hover {
+    color: rgb(128, 231, 240);
+    font-size: 34px;
+    font-weight: 600;
+  }
+}

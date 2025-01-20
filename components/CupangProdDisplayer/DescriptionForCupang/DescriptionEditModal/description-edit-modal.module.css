@@ -1,0 +1,37 @@
+.description-edit-modal[prefix="_descEditModal-em-32"].inactive {
+    display: none;
+}
+
+.description-edit-modal[prefix="_descEditModal-em-32"] {
+    display: flex;
+    margin: 24px auto;
+    
+    width: 100%;
+
+ 
+    background-color: aliceblue;
+    border-radius: 48px;
+    box-shadow:  0px 1px 1px 2px rgba(180, 85, 85, 0.3);
+
+}
+
+.description-edit-modal[prefix="_descEditModal-em-32"] form {
+    width: 100%;
+    padding: 30px 24px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.edit-inputs[prefix="_descEditModal-em-32"] {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.edit-btns[prefix="_descEditModal-em-32"] {
+    display: flex;
+    
+    column-gap: 16px;
+}

@@ -1,0 +1,15 @@
+.input-for-add-cupang-item[prefix='_editorInput-dm-32'] label, input{
+    font-size: 20px; 
+}
+
+.input-for-add-cupang-item[prefix='_editorInput-dm-32'] input{
+    border-radius: 99px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .input-for-add-cupang-item[prefix='_editorInput-dm-32'] label, input{
+        font-size:16px;
+       
+    }
+}

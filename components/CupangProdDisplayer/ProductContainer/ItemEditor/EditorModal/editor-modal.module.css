@@ -1,0 +1,49 @@
+.modal-editor[prefix="_editModal-en-32"] {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  width: 600px;
+
+  padding: 12px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aliceblue;
+  box-shadow: 0px 1px 1px 2px rgba(40, 40, 40, 0.3);
+  border-radius: 48px;
+}
+.modal-editor[prefix="_editModal-en-32"].collapsed {
+  display: none;
+}
+
+.layout[prefix="_editModal-en-32"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-cancel-edit-btn[prefix="_editModal-en-32"] {
+  width: 100%;
+  justify-items: start;
+  margin-bottom: 12px;
+}
+
+.product-add-form[prefix="_editModal-en-32"] {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  .modal-editor[prefix="_editModal-en-32"] {
+    width: 100%;
+    padding: 8px 8px;
+  }
+}

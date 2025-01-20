@@ -1,0 +1,14 @@
+.slider-edit-input[prefix="_sliderEditorInput-mr-32"] {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.slider-edit-input[prefix="_sliderEditorInput-mr-32"] > label {
+    font-size: 20px;
+}
+
+.slider-edit-input[prefix="_sliderEditorInput-mr-32"] > input {
+    border-radius: 8px;
+    height: 36px;
+}
